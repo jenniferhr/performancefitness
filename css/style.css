@@ -1,0 +1,161 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(0,0,0,0.05);
+}
+
+strong {
+	font-weight: bold;
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+/*cabeçalho*/
+header h1 {
+	padding: 18px 0;
+	text-align: center;
+}
+
+nav ul {
+	float: left;
+	background: rgb(193,215,45);
+	padding: 13px 0;
+	width: 900px;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 13px;
+}
+
+nav ul li:first-of-type {
+	padding-left: 25px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.social {
+	float: right;
+	margin-top: -36px;
+	padding-right: 25px;
+}
+
+.social li {
+	display: inline;
+	padding-left: 3px;
+}
+
+/*seção esquerda*/
+#secao_esquerda {
+	width: 553px;
+	padding-left: 32px;
+	padding-top: 32px;
+}
+
+#esquerda_1 {
+	width: 243px;
+	float: left;
+	display: inline-block;
+}
+
+#esquerda_2 {
+	width: 243px;
+	float: right;
+	display: inline-block;
+}
+
+#esquerda_1 h2 {
+	width: 230px;
+	color: #fff;
+	background: rgb(158,158,158);
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#esquerda_2 h2 {
+	width: 230px;
+	color: #fff;
+	background: rgb(158,158,158);
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#secao_esquerda p {
+	font-size: 12px;
+	letter-spacing: .3px;
+	line-height: 140%;
+	padding-left: 13px;
+	padding-bottom: 5px;
+}
+
+.leia {
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+	padding-left: 13px;
+}
+
+/* seção direita */
+#secao_direita {
+	float: right;
+	margin-top: -290px;
+	margin-bottom: 37px;
+}
+
+.boxe {
+	width: 280px;
+	height: 160px;
+	display: block;
+}
+
+.mma {
+	width: 280px;
+	height: 250px;
+	margin-top: 30px;
+	display: block;
+}
+
+/*rodape */
+footer {
+	clear: both;
+	background: rgb(193,215,45);
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+footer ul {
+	float: left;
+	display: inline;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+footer ul li {
+	display: inline;
+	font-size: 13px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+footer p {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 70px;
+}
